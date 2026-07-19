@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="sidebarTitle sideBarRow">
+            <div class="sidebarItemImg"><img class="sidebarTitleIcon iconLarge" src="icons/dashboard.svg" /></div>
+            <div class="sidebarTitleText sidebarText">Dashboard</div>
+        </div>
+        <div class="nav sideBarRow">
+            <div class="sidebarItemImg"><img class="sidebarIcon iconSmall" src="icons/home.svg" /></div>
+            <div class="navItemText">Home</div>
+            <div class="sidebarItemImg"><img class="sidebarIcon iconSmall" src="icons/profile.svg" /></div>
+            <div class="sidebarText">Profile</div>
+            <div class="sidebarItemImg"><img class="sidebarIcon iconSmall" src="icons/messages.svg" /></div>
+            <div class="sidebarText">Messages</div>
+            <div class="sidebarItemImg"><img class="sidebarIcon iconSmall" src="icons/history.svg" /></div>
+            <div class="sidebarText">History</div>
+            <div class="sidebarItemImg"><img class="sidebarIcon iconSmall" src="icons/tasks.svg" /></div>
+            <div class="sidebarText">Tasks</div>
+            <div class="sidebarItemImg"><img class="sidebarIcon iconSmall" src="icons/communities.svg" /></div>
+            <div class="sidebarText">Communities</div>
+        </div>
+        <div class="brand sideBarRow">
+            <div class="sidebarItemImg"><img class="sidebarIcon iconSmall" src="icons/settings.svg" /></div>
+            <div class="sidebarText">Settings</div>
+            <div class="sidebarItemImg"><img class="sidebarIcon iconSmall" src="icons/support.svg" /></div>
+            <div class="sidebarText">Support</div>
+            <div class="sidebarItemImg"><img class="sidebarIcon iconSmall" src="icons/privacy.svg" /></div>
+            <div class="sidebarText">Privacy</div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="header">
+            <div class="headerTop headerRow">
+                <div class="headerTopLeft">
+                    <div class="headerTopIcon"><img class="iconSmall" src="icons/search.svg" /></div>
+                    <input class="searchInput">
+                </div>
+                <div class="spacerColumn"> </div>
+                <div class="headerTopRight">
+                    <img class="headerTopIcon iconSmall" src="icons/bell.svg" />
+                    <img class="userIcon iconMedium" src="icons/rabbit.svg" />
+                    <div>Dan Jeffrey</div>
+                </div>
+            </div>
+            <div class="headerBottom headerRow">
+                <div class="headerBottomLeft">
+                    <img class="userIcon iconLarge" src="icons/rabbit.svg" />
+                    <div class="helloUser">
+                        <div class="helloText">Hi there,</div>
+                        <div class="userID">Dan Jeffrey (@danj)</div>
+                    </div>
+                </div>
+                <div class="spacerColumn"> </div>
+                <div class="headerBottomRight">
+                    <button class="actionButton">New</button>
+                    <button class="actionButton">Upload</button>
+                    <button class="actionButton">Share</button>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="projects">
+                <div class="projectsTitle contentTitle">Your Projects</div>
+                <div class="projectsBody">
+                    <card class="projectItem">
+                        <div class="projectTitle">Super Cool Project</div>
+                        <div class="projectDescr">Aenean at ultricies ante, ut facilisis est. Aliquam erat volutpat. Sed
+                            ornare fringilla maximus. Quisque sodales fringilla auctor. </div>
+                        <div class="cardFooter">
+                            <img class="userIcon iconSmall" src="icons/star-plus.svg" />
+                            <img class="userIcon iconSmall" src="icons/eye-plus.svg" />
+                            <img class="userIcon iconSmall" src="icons/fork.svg" />
+                        </div>
+                    </card>
+                    <card class="projectItem">
+                        <div class="projectTitle">Less Cool Project</div>
+                        <div class="projectDescr">Integer nec ipsum eros. Donec aliquet lacinia porta. Lorem ipsum dolor
+                            sit
+                            amet, consectetur adipiscing elit.</div>
+                        <div class="cardFooter">
+                            <img class="userIcon iconSmall" src="icons/star-plus.svg" />
+                            <img class="userIcon iconSmall" src="icons/eye-plus.svg" />
+                            <img class="userIcon iconSmall" src="icons/fork.svg" />
+                        </div>
+                    </card>
+                    <card class="projectItem">
+                        <div class="projectTitle">Impossible App</div>
+                        <div class="projectDescr">Nullam varius, dolor id dapibus interdum, ex purus convallis leo, quis
+                            dictum odio diam nec orci. Duis tempus nibh a gravida tempor.</div>
+                        <div class="cardFooter">
+                            <img class="userIcon iconSmall" src="icons/star-plus.svg" />
+                            <img class="userIcon iconSmall" src="icons/eye-plus.svg" />
+                            <img class="userIcon iconSmall" src="icons/fork.svg" />
+                        </div>
+                    </card>
+                    <card class="projectItem">
+                        <div class="projectTitle">Easy Peasy App</div>
+                        <div class="projectDescr">Duis sed libero tortor. Nunc eleifend, justo finibus fringilla
+                            interdum,
+                            sem leo elementum quam, in fermentum urna neque nec velit.</div>
+                        <div class="cardFooter">
+                            <img class="userIcon iconSmall" src="icons/star-plus.svg" />
+                            <img class="userIcon iconSmall" src="icons/eye-plus.svg" />
+                            <img class="userIcon iconSmall" src="icons/fork.svg" />
+                        </div>
+                    </card>
+                    <card class="projectItem">
+                        <div class="projectTitle">Ad Blocker</div>
+                        <div class="projectDescr">Interdum et malesuada fames ac ante ipsum primis in faucibus. In
+                            pretium
+                            dolor eget odio placerat fermentum.</div>
+                        <div class="cardFooter">
+                            <img class="userIcon iconSmall" src="icons/star-plus.svg" />
+                            <img class="userIcon iconSmall" src="icons/eye-plus.svg" />
+                            <img class="userIcon iconSmall" src="icons/fork.svg" />
+                        </div>
+                    </card>
+                    <card class="projectItem">
+                        <div class="projectTitle">Money Maker</div>
+                        <div class="projectDescr">Aliquam tempor eros non ante porta, a laoreet sem fermentum. Nunc eget
+                            laoreet lacus. Nunc lectus magna, vestibulum vel vehicula at, lobortis laoreet eros.</div>
+                        <div class="cardFooter">
+                            <img class="userIcon iconSmall" src="icons/star-plus.svg" />
+                            <img class="userIcon iconSmall" src="icons/eye-plus.svg" />
+                            <img class="userIcon iconSmall" src="icons/fork.svg" />
+                        </div>
+                    </card>
+                </div>
+            </div>
+            <div class="other">
+                <div class="announcements">
+                    <div class="announcementsTitle contentTitle">Announcements</div>
+                    <div class="announcementsBody">
+                        <div class="announcement">
+                            <div class="announcementTitle">Site Maintenance</div>
+                            <div class="announcementBody">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            </div>
+                        </div>
+                        <hr />
+                        <div class="announcement">
+                            <div class="announcementTitle">Community Share Day</div>
+                            <div class="announcementBody">Praesent augue odio, tincidunt nec nunc sit amet, interdum
+                                rutrum nisl.</div>
+                        </div>
+                        <hr />
+                        <div class="announcement">
+                            <div class="announcementTitle">Upload Privacy Policy</div>
+                            <div class="announcementBody">Nam euismod auctor placerat. Pellentesque habitant morbi
+                                tristique senectus et netus et malesuada fames ac turpis egestas.</div>
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <div class="trending">
+                    <div class="trendingTitle contentTitle">Trending</div>
+                    <div class="trendingBody">
+                        <div class="trendingItem">
+                            <img class="trendingItemIcon iconMedium" src="icons/dolphin.svg" />
+                            <div class="trendingItemBody">
+                                <div class="trendingItemTag">@tegan</div>
+                                <div class="trendingItemProject">Easy Peasy App</div>
+                            </div>
+                        </div>
+                        <div class="trendingItem">
+                            <img class="trendingItemIcon iconMedium" src="icons/dog.svg" />
+                            <div class="trendingItemBody">
+                                <div class="trendingItemTag">@morgan</div>
+                                <div class="trendingItemProject">Super Cool Project</div>
+                            </div>
+                        </div>
+                        <div class="trendingItem">
+                            <img class="trendingItemIcon iconMedium" src="icons/rabbit.svg" />
+                            <div class="trendingItemBody">
+                                <div class="trendingItemTag">@kendall</div>
+                                <div class="trendingItemProject">Life Changing App</div>
+                            </div>
+                        </div>
+                        <div class="trendingItem">
+                            <img class="trendingItemIcon iconMedium" src="icons/cat.svg" />
+                            <div class="trendingItemBody">
+                                <div class="trendingItemTag">@alex</div>
+                                <div class="trendingItemProject">No Traffic Maker</div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
